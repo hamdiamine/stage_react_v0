@@ -1,0 +1,212 @@
+/****Surcharge class du DataTable de PrimeReact******/
+.p-datatable-thead th {
+    background: #212944 !important;
+    padding: 0.5rem 0.5rem !important;
+    color: #fff !important;
+}
+
+.p-row-editor-init {
+    color: #fff !important;
+    background: #ca8402 !important;
+}
+
+.p-row-editor-save {
+    color: #fff !important;
+    background: #22C55E !important;
+}
+
+.p-row-editor-cancel {
+    color: #fff !important;
+    background: #EF4444 !important;
+}
+
+.p-datatable .p-datatable-tbody>tr>td {
+    padding: 0.1rem 0.5rem !important;
+}
+
+/**************************************/
+
+/**Surcharge de input dans le popup****/
+.p-dialog input.MuiOutlinedInput-input,
+.p-tabview-panel input.MuiOutlinedInput-input {
+    height: 2.8em;
+}
+
+.p-dialog input.MuiAutocomplete-inputFocused,
+.p-tabview-panel input.MuiAutocomplete-inputFocused {
+    height: 2em;
+}
+
+/**************************************/
+
+/**Surcharge bouton menu dans TABVIEW***/
+.p-tabview-panel button.p-button-icon-only {
+    justify-content: unset !important;
+}
+
+/**************************************/
+
+/***************/
+.MuiAutocomplete-popper {
+    z-index: 2203 !important;
+}
+
+.css-1ozefeb {
+    z-index: 2303 !important;
+}
+
+/**************************************/
+
+/****specifique style******************/
+
+h4.titre-item {
+    margin-bottom: 5px;
+}
+
+.btn-other-add {
+    color: #ffffff;
+    background: #046592 !important;
+    border: 1px solid #046592 !important;
+}
+
+.btn-planif {
+    color: #ffffff;
+    background: #c68111 !important;
+    border: 1px solid #c68111 !important;
+}
+
+.header-vignette {
+    width: 100%;
+    height: 25px;
+    background-color: #1976d2;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-top: 3px;
+    font-size: small;
+}
+
+.vignette {
+    min-height: 120px;
+}
+
+.vignette label {
+    font-size: x-small;
+    font-weight: bold;
+    color: rgb(120, 120, 120);
+}
+
+.vignette label span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #47445c;
+}
+
+.vignette .p-card-body {
+    padding: 2px !important;
+}
+
+.vignette .p-card-body .p-card-content {
+    padding-left: 5px !important;
+}
+
+.vignette .MuiGrid-item {
+    padding-top: 1px !important;
+}
+
+.tabview-custom .tabview-header-icon i,
+.tabview-custom .tabview-header-icon span {
+    vertical-align: middle;
+}
+
+.tabview-custom span.p-tabview-title {
+    font-size: 13px;
+}
+
+.tabview-custom .tabview-header-icon span {
+    margin: 0 .5rem;
+}
+
+.data-display .p-datatable-thead th {
+    background: #6887a7 !important;
+    padding: 0.3rem 0.3rem !important;
+    color: #fff !important;
+    font-size: 12px;
+}
+
+.data-display .p-datatable-thead th .p-column-title {
+    margin: 0 !important;
+}
+
+.data-display .p-datatable-tbody tr {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.small-table .p-datatable-thead th .p-column-title {
+    font-size: 12px;
+}
+
+.small-fieldset .p-fieldset-legend {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.small-fieldset .p-fieldset-legend a {
+    padding-top: 0.1rem !important;
+    padding-bottom: 0.1rem !important;
+}
+
+.small-fieldset .p-fieldset-legend a .p-fieldset-toggler {
+    font-size: 0.7rem;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.custom-required {
+    border-color: #FF3D57;
+}
+
+.custom-required .p-treeselect-label.p-placeholder {
+    color: #FF3D57;
+}
+
+.IDF .p-treenode-label,
+.IDF .p-treenode-icon,
+.IDF .p-tree-toggler-icon {
+    color: #22C55E !important;
+    font-weight: bold !important;
+}
+
+.IDF_OTHER .p-treenode-label,
+.IDF_OTHER .p-treenode-icon,
+.IDF_OTHER .p-tree-toggler-icon {
+    color: #1976d2 !important;
+    font-weight: bold !important;
+}
+
+.IDF_ADD .p-treenode-label,
+.IDF_ADD .p-treenode-icon,
+.IDF_ADD .p-tree-toggler-icon {
+    color: #c68111 !important;
+    font-weight: bold !important;
+}
+
+.IDF_MISS .p-treenode-label,
+.IDF_MISS .p-treenode-icon,
+.IDF_MISS .p-tree-toggler-icon {
+    color: #FF3D57 !important;
+    font-weight: bold !important;
+}
+
+.NIDF .p-treenode-label,
+.NIDF .p-treenode-icon,
+.NIDF .p-tree-toggler-icon {
+    color: #6887a7 !important;
+    font-weight: bold !important;
+}
+
+/**************************************/
